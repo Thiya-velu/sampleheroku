@@ -1,0 +1,37 @@
+.welcomePage{
+    .card{
+        margin: 5vh auto;
+        width: 20vw;
+        border-radius: 5%;
+        height: 34em;
+    }
+    .card-body{
+        background-color: #007ee5;
+        border-radius: 0% 0% 5% 5%;
+    }
+    .card-title{
+        color: black;
+        padding: 10px 10px;
+        margin:20px 20px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: .2em;
+    }
+    // ***************coffee-container  css *************//
+    .coffee-container{
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 12vw; 
+            height: 25vh;
+        }      
+       
+    }
+    .readyText{
+        text-align: center;
+        letter-spacing: .2em;
+    }
+    
+}

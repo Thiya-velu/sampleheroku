@@ -1,0 +1,20 @@
+<div class="milkBalance">
+    <div class="container">
+        <div class="card">
+            <h5 class="card-title">MILK BALANCE</h5>
+            <div class="card-body">
+               <div class="row">
+                   <div class="slidecontainer">
+                       <input type="range" min="1" max="100" value="50" class="slider" id="myRange" (change)="sliderChange($event.target.value)">
+                       <h4>{{range}}</h4><br/>
+                  </div>
+            </div>
+            <div class="next">
+                <button id="nextButton" class="button" *ngIf="next" (click)="onClickNext()">Next</button>
+                <button id="nextButton" class="button" *ngIf="placeOrder" (click)="onClickPlaceOrder()">PLACE ORDER</button>
+
+               </div>
+            </div>
+          </div>
+      </div>
+</div>

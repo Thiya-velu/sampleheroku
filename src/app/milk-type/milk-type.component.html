@@ -1,0 +1,16 @@
+<div class="milkType">
+    <div class="container">
+        <div class="card">
+            <h5 class="card-title">MILK TYPE</h5>
+            <div class="card-body">
+               <div class="row" *ngFor="let item of milkType" [ngStyle]="{'background-color':getColor(item.label)}" (click)="milkBalance()">
+                <label class="container1">{{item.label}}
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+               </div>
+            </div>
+          </div>
+      </div>
+
+</div>
